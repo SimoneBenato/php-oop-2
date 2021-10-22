@@ -7,7 +7,6 @@
         {
             $this->name = $_name;
             $this->price = $_price;
-
         }
 
         function getName()
@@ -33,7 +32,7 @@
 
     class User {
         public $userName;
-        private $password;
+        public $password;
 
         function __construct($_userName, $_password)
         {
